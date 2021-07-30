@@ -34,8 +34,9 @@ const useStyles = makeStyles((theme) => ({
         alignSelf: 'center',
     },
     titleMobile: {
-        marginLeft: '4vw',
-        flexGrow: 1
+        flexGrow: 1,
+        marginLeft: 24,
+        alignSelf: 'center'
     },
     logo: {
         alignSelf: 'center',
@@ -48,6 +49,7 @@ const useStyles = makeStyles((theme) => ({
     mobileLogo: {
         alignSelf: 'center',
         marginTop: '1rem',
+        marginLeft: '1rem',
         marginBottom: '0.75rem',
         marginRight: '0.5rem',
         width: '20vw',
@@ -74,7 +76,7 @@ const useStyles = makeStyles((theme) => ({
     mobileReport: {
         marginTop: -12,
         marginLeft: '0.5rem',
-        marginRight: '1.75rem',
+        marginRight: '4rem',
         width: 71,
         height: 13,
         letterSpacing: 3.65,
@@ -108,7 +110,7 @@ const Header = () => {
             <Hidden smUp>
                 <Toolbar className={classes.toolbarMobile}>
                     <SideDrawer className={classes.drawer}/>
-                    <Link href='/' className={classes.title}>
+                    <Link href='/' className={classes.titleMobile}>
                         <img className={classes.mobileLogo} src={comfyLogo} alt='comfy_logo'/>
                     </Link>
                     <Divider className={classes.divider} orientation={"vertical"}/>

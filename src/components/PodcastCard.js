@@ -13,6 +13,7 @@ const useStyles = makeStyles((theme) => ({
         height: 170,
         borderColor: 'transparent',
         textOverflow: 'ellipsis',
+        overflow: "hidden",
         background: 'linear-gradient(to right, #1c171d 0%, #19191e 100%)',
         borderRadius: 15,
         '&:hover': {
@@ -25,27 +26,12 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     focusHighlight: {},
-    media: {
-        width: '25%',
-        height: 'auto',
-        backgroundPositionX: "center",
-        backgroundPositionY: "center",
-        borderRadius: '15px 0 0 15px'
-    },
     cardDetails: {
         flex: 1,
-        marginTop: -10,
-        alignItems: 'center',
-        justifyContent: 'flex-start'
-    },
-    podcast: {
-        backgroundColor: 'transparent',
-        borderRadius: 15,
-        marginTop: 25,
-        width: '100%',
+        margin: -5,
         alignItems: 'center',
         justifyContent: 'center',
-    }
+    },
 }));
 
 
@@ -61,10 +47,11 @@ const PodcastCard = ({post}) => {
             }}>
                 <Card className={classes.card} variant='outlined'>
                     <div className={classes.cardDetails}>
-                       <ReactPlayer
-                        url={post.link}
-                        width='100%'
-                        height={200}
+                        <ReactPlayer
+                            style={{'border-radius': '15'}}
+                            url={post.link}
+                            width='100%'
+                            height={200}
                         />
                     </div>
                 </Card>
