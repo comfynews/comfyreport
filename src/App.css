@@ -1,0 +1,26 @@
+body {
+    background: linear-gradient(to right, #0f0b0f 0%, #0c0d0f 100%);
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #0d0b0d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #212328;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #FFF8E9;
+}
