@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="404dfafe-0524-4a35-b00e-dbc1b27f8597" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1tGoD2KQisDHuRSEwGnpqH28zlZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spotify-sandbox" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jaret\cnews\src\assets\twitter" />
+      <recent name="C:\Users\jaret\cnews\src\components" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="404dfafe-0524-4a35-b00e-dbc1b27f8597" name="Default Changelist" comment="" />
+      <created>1622404664222</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622404664222</updated>
+      <workItem from="1622404665358" duration="24800000" />
+      <workItem from="1622472446152" duration="7120000" />
+      <workItem from="1622493732527" duration="25912000" />
+      <workItem from="1622578052394" duration="7561000" />
+      <workItem from="1622593156664" duration="4755000" />
+      <workItem from="1622842128977" duration="155000" />
+      <workItem from="1622842426103" duration="17000" />
+      <workItem from="1622842483110" duration="2825000" />
+      <workItem from="1622931114191" duration="588000" />
+      <workItem from="1623184044577" duration="10299000" />
+      <workItem from="1623382959701" duration="648000" />
+      <workItem from="1623452202351" duration="12828000" />
+      <workItem from="1623497067854" duration="517000" />
+      <workItem from="1623536720955" duration="20535000" />
+      <workItem from="1623704524062" duration="17850000" />
+      <workItem from="1623724945208" duration="9151000" />
+      <workItem from="1623796867867" duration="15352000" />
+      <workItem from="1623897491432" duration="14764000" />
+      <workItem from="1624058110375" duration="18014000" />
+      <workItem from="1624141495827" duration="26246000" />
+      <workItem from="1624223256667" duration="804000" />
+      <workItem from="1624230071880" duration="4842000" />
+      <workItem from="1624257890815" duration="658000" />
+      <workItem from="1624309592646" duration="4194000" />
+      <workItem from="1624557147113" duration="190000" />
+      <workItem from="1624587903167" duration="2820000" />
+      <workItem from="1624687656161" duration="103000" />
+      <workItem from="1624820540921" duration="26000" />
+      <workItem from="1624820715703" duration="7857000" />
+      <workItem from="1625165120216" duration="7957000" />
+      <workItem from="1625268971999" duration="15000" />
+      <workItem from="1625521712577" duration="362000" />
+      <workItem from="1625522335755" duration="870000" />
+      <workItem from="1625673603702" duration="777000" />
+      <workItem from="1625690871751" duration="5526000" />
+      <workItem from="1625714674103" duration="6759000" />
+      <workItem from="1625721628422" duration="257000" />
+      <workItem from="1625763522676" duration="690000" />
+      <workItem from="1625801350223" duration="3652000" />
+      <workItem from="1625850749998" duration="1608000" />
+      <workItem from="1626297199346" duration="517000" />
+      <workItem from="1627612077884" duration="5168000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/cors" />
+    </ignored-roots>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
