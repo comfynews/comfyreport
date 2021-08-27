@@ -1,7 +1,7 @@
 import React from "react";
 import {Card, CardMedia, Grid} from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles";
-import nycToken from "../assets/nyc_blurred.gif";
+import shillmoon from "../assets/SM.gif";
 import Link from "@material-ui/core/Link";
 
 const useStyles = makeStyles((theme) => ({
@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
         borderRadius: 15,
         height: 170,
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'flex-start'
     },
     actionArea: {
         '&:hover $focusHighlight': {
@@ -25,9 +25,7 @@ const useStyles = makeStyles((theme) => ({
     focusHighlight: {},
     media: {
         height: 170,
-        width: 'auto',
-        marginLeft: 10,
-
+        width: '105%',
     },
 }));
 
@@ -39,10 +37,10 @@ const PromoCard = () => {
     return (
         <Grid item xs={12} md={6}>
             <Card className={classes.card}>
-                <Link href="https://newyorkcoin.finance" target='_blank' rel='noreferrer'>
+                <Link href="https://shillmoon.com/" target='_blank' rel='noreferrer'>
                 <CardMedia className={classes.media}
                     component="img"
-                    src={nycToken}/>
+                    src={shillmoon}/>
                 </Link>
             </Card>
         </Grid>
