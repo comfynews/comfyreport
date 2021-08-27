@@ -1,7 +1,8 @@
 import React from "react";
-import {Card, CardMedia, Grid} from "@material-ui/core";
+import {Card, CardMedia, Grid, Hidden} from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles";
 import shillmoon from "../assets/SM.gif";
+import smMobile from '../assets/SMmobile.gif';
 import Link from "@material-ui/core/Link";
 
 const useStyles = makeStyles((theme) => ({
@@ -15,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
         borderRadius: 15,
         height: 170,
         alignItems: 'center',
-        justifyContent: 'flex-start'
+        justifyContent: 'center'
     },
     actionArea: {
         '&:hover $focusHighlight': {
@@ -24,9 +25,14 @@ const useStyles = makeStyles((theme) => ({
     },
     focusHighlight: {},
     media: {
+        height: "auto",
+        width: '100%',
+    },
+    mobileMedia: {
         height: 170,
         width: '105%',
-    },
+        marginLeft: -8
+    }
 }));
 
 
@@ -36,6 +42,7 @@ const PromoCard = () => {
 
     return (
         <Grid item xs={12} md={6}>
+            <Hidden xsDown>
             <Card className={classes.card}>
                 <Link href="https://shillmoon.com/" target='_blank' rel='noreferrer'>
                 <CardMedia className={classes.media}
@@ -43,6 +50,16 @@ const PromoCard = () => {
                     src={shillmoon}/>
                 </Link>
             </Card>
+            </Hidden>
+            <Hidden smUp>
+                <Card className={classes.card}>
+                    <Link href="https://shillmoon.com/" target='_blank' rel='noreferrer'>
+                        <CardMedia className={classes.mobileMedia}
+                                   component="img"
+                                   src={smMobile}/>
+                    </Link>
+                </Card>
+            </Hidden>
         </Grid>
     )
 }
