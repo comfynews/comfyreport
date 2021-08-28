@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="404dfafe-0524-4a35-b00e-dbc1b27f8597" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/PromoCardTwoForms.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PromoCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PromoCard.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +133,8 @@
       <workItem from="1629173325968" duration="332000" />
       <workItem from="1629173697922" duration="620000" />
       <workItem from="1630083617702" duration="1072000" />
-      <workItem from="1630092348618" duration="1287000" />
+      <workItem from="1630092348618" duration="1502000" />
+      <workItem from="1630192946817" duration="1994000" />
     </task>
     <servers />
   </component>
