@@ -30,8 +30,8 @@ const useStyles = makeStyles((theme) => ({
     },
     mobileMedia: {
         height: 170,
-        width: '105%',
-        marginLeft: -8
+        width: '110%',
+        marginLeft: -16
     }
 }));
 
