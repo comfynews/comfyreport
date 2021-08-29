@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="404dfafe-0524-4a35-b00e-dbc1b27f8597" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/PromoCardTwoForms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PromoCardTwoForms.js" afterDir="false" />
-    </list>
+    <list default="true" id="404dfafe-0524-4a35-b00e-dbc1b27f8597" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +129,7 @@
       <workItem from="1629173697922" duration="620000" />
       <workItem from="1630083617702" duration="1072000" />
       <workItem from="1630092348618" duration="1502000" />
-      <workItem from="1630192946817" duration="2714000" />
+      <workItem from="1630192946817" duration="3401000" />
     </task>
     <servers />
   </component>
