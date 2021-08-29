@@ -44,7 +44,7 @@ const PromoCardTwo = () => {
         <Grid item xs={12} md={6}>
             <Hidden xsDown>
                 <Card className={classes.card}>
-                    <Link href="https://shillmoon.com/" target='_blank' rel='noreferrer'>
+                    <Link href="https://t.me/M7Capital" target='_blank' rel='noreferrer'>
                         <CardMedia className={classes.media}
                                    component="img"
                                    src={newAd}/>
@@ -53,7 +53,7 @@ const PromoCardTwo = () => {
             </Hidden>
             <Hidden smUp>
                 <Card className={classes.card}>
-                    <Link href="https://shillmoon.com/" target='_blank' rel='noreferrer'>
+                    <Link href="https://t.me/M7Capital" target='_blank' rel='noreferrer'>
                         <CardMedia className={classes.mobileMedia}
                                    component="img"
                                    src={newAdMobile}/>
