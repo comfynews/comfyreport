@@ -1,8 +1,8 @@
 import React from "react";
 import {Card, CardMedia, Grid, Hidden} from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles";
-import shillmoon from "../assets/SM.gif";
-import smMobile from '../assets/SMmobile.gif';
+import battleseal from "../assets/battleseal.gif";
+import bsMobile from '../assets/bs-mobile.gif';
 import Link from "@material-ui/core/Link";
 
 const useStyles = makeStyles((theme) => ({
@@ -25,13 +25,13 @@ const useStyles = makeStyles((theme) => ({
     },
     focusHighlight: {},
     media: {
-        height: "auto",
-        width: '100%',
+        height: 'auto',
+        width: '105%',
+        marginLeft: -8
     },
     mobileMedia: {
-        height: 170,
-        width: '110%',
-        marginLeft: -16
+        height: 'auto',
+        width: '100%',
     }
 }));
 
@@ -44,19 +44,19 @@ const PromoCard = () => {
         <Grid item xs={12} md={6}>
             <Hidden xsDown>
             <Card className={classes.card}>
-                <Link href="https://shillmoon.com/" target='_blank' rel='noreferrer'>
+                <Link href="https://t.me/battlesealtoken" target='_blank' rel='noreferrer'>
                 <CardMedia className={classes.media}
                     component="img"
-                    src={shillmoon}/>
+                    src={battleseal}/>
                 </Link>
             </Card>
             </Hidden>
             <Hidden smUp>
                 <Card className={classes.card}>
-                    <Link href="https://shillmoon.com/" target='_blank' rel='noreferrer'>
+                    <Link href="https://t.me/battlesealtoken" target='_blank' rel='noreferrer'>
                         <CardMedia className={classes.mobileMedia}
                                    component="img"
-                                   src={smMobile}/>
+                                   src={bsMobile}/>
                     </Link>
                 </Card>
             </Hidden>
