@@ -1,8 +1,8 @@
 import React from "react";
 import {Card, CardMedia, Grid, Hidden} from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles";
-import newAd from "../assets/newAd.gif";
-import newAdMobile from '../assets/adMobile.gif';
+import newAd from "../assets/m7.gif";
+import newAdMobile from '../assets/m7mobile.gif';
 import Link from "@material-ui/core/Link";
 
 const useStyles = makeStyles((theme) => ({
