@@ -9,8 +9,6 @@ import ap_text from "./assets/fonts/ap_text_regular.ttf";
 // import AdCardBottom from "./components/AdCardBottom";
 import PodcastCard from "./components/PodcastCard";
 import PromoCard from "./components/PromoCard";
-import PromoCardTwo from "./components/PromoCardTwoForms";
-// import PromoCard from "./components/PromoCard";
 
 
 const darkTheme = createTheme({
@@ -102,7 +100,7 @@ function App() {
             // add in ad-flag @ index 10
             // newsPosts.splice(10, 0, 'ad')
             // ensure even count for ComfyDude's OCD
-            if (currentPodcast) {
+            if (!currentPodcast) {
                 newsPosts.splice(-1, 1)
             }
             setPosts(newsPosts)
@@ -122,7 +120,7 @@ function App() {
             <Container maxWidth='lg'>
                 <Grid container spacing={2}>
                     { loaded ? <PromoCard/> : null }
-                    { loaded ? <PromoCardTwo/> : null }
+                    {/*{ loaded ? <PromoCardTwo/> : null }*/}
                     { loaded && currentPodcast ? <PodcastCard post={trendingPost}/> : null}
                     {posts.map((post, idx) => {
                         return (<BaseCard post={post} key={idx}/>)
