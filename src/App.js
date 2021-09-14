@@ -119,7 +119,7 @@ function App() {
             <Header/>
             <Container maxWidth='lg'>
                 <Grid container spacing={2}>
-                    { loaded ? <PromoCard/> : null }
+                    {/*{ loaded ? <PromoCard/> : null }*/}
                     {/*{ loaded ? <PromoCardTwo/> : null }*/}
                     { loaded && currentPodcast ? <PodcastCard post={trendingPost}/> : null}
                     {posts.map((post, idx) => {
