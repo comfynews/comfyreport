@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="404dfafe-0524-4a35-b00e-dbc1b27f8597" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/ComfyCastPlayer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PodcastCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SoundCloudCard.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +138,9 @@
       <workItem from="1630371278964" duration="1119000" />
       <workItem from="1630815545754" duration="458000" />
       <workItem from="1631062778425" duration="75000" />
+      <workItem from="1631587321154" duration="458000" />
+      <workItem from="1632490178284" duration="352000" />
+      <workItem from="1633277209291" duration="3363000" />
     </task>
     <servers />
   </component>

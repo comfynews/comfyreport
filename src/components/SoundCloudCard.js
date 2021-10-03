@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-const PodcastCard = ({post}) => {
+const SoundCloudCard = ({post}) => {
 
     const classes = useStyles();
 
@@ -60,4 +60,4 @@ const PodcastCard = ({post}) => {
     )
 };
 
-export default PodcastCard;
+export default SoundCloudCard;

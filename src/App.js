@@ -7,8 +7,8 @@ import Footer from "./components/Footer";
 import Parser from "rss-parser";
 import ap_text from "./assets/fonts/ap_text_regular.ttf";
 // import AdCardBottom from "./components/AdCardBottom";
-import PodcastCard from "./components/PodcastCard";
-import PromoCard from "./components/PromoCard";
+import ComfyCast from "./components/ComfyCastPlayer";
+// import PromoCard from "./components/PromoCard";
 
 
 const darkTheme = createTheme({
@@ -35,7 +35,7 @@ function App() {
 
     const [posts, setPosts] = useState([]);
     const [trendingPost, setTrendingPost] = useState([]);
-    const [currentPodcast, setCurrentPodcast] = useState(false)
+    const [currentPodcast] = useState(false)
     // used to control ads loading after content
     const [loaded, setLoaded] = useState(false);
 
@@ -79,28 +79,28 @@ function App() {
             const tweets = filterTweets(extractPosts(twitterFeed.items))
 
             // used to grab new podcasts
-            const podcastURL = 'https://cors.cnews.workers.dev/?u=https://rss.app/feeds/1xTN7wLZlEolVxPG.xml'
+            const podcastURL = 'https://cors.cnews.workers.dev/?u=https://rss.app/feeds/A3LBdTuH8vZvTDYm.xml'
             const podcastFeed = await parser.parseURL(podcastURL)
             const podcasts = extractPosts(podcastFeed.items)
             // soundcloud doesnt provide dates, so grab them from anchorFM
-            const podcastDates = 'https://cors.cnews.workers.dev/?u=https://rss.app/feeds/EOYrDTrXYkWdxQc4.xml'
-            const feedDates = await parser.parseURL(podcastDates)
-            const dates = extractPosts(feedDates.items)
+            // const podcastDates = 'https://cors.cnews.workers.dev/?u=https://rss.app/feeds/EOYrDTrXYkWdxQc4.xml'
+            // const feedDates = await parser.parseURL(podcastDates)
+            // const dates = extractPosts(feedDates.items)
 
             newsPosts = newsPosts.concat(tweets)
             newsPosts.sort(sortPosts)
             //set trending post
             setTrendingPost(podcasts[0])
             // if new podcast is < 3 days old, set flag to pin to top
-            const datetime = new Date(Date.now());
-            const podcastTimestamp = new Date(dates[0].isoDate);
-
-            ((datetime.getTime() - podcastTimestamp.getTime()) / 86400000 < 3) ? setCurrentPodcast(true)
-                : setCurrentPodcast(false)
+            // const datetime = new Date(Date.now());
+            // const podcastTimestamp = new Date(dates[0].isoDate);
+            //
+            // ((datetime.getTime() - podcastTimestamp.getTime()) / 86400000 < 3) ? setCurrentPodcast(true)
+            //     : setCurrentPodcast(false)
             // add in ad-flag @ index 10
             // newsPosts.splice(10, 0, 'ad')
             // ensure even count for ComfyDude's OCD
-            if (!currentPodcast) {
+            if (currentPodcast) {
                 newsPosts.splice(-1, 1)
             }
             setPosts(newsPosts)
@@ -121,7 +121,7 @@ function App() {
                 <Grid container spacing={2}>
                     {/*{ loaded ? <PromoCard/> : null }*/}
                     {/*{ loaded ? <PromoCardTwo/> : null }*/}
-                    { loaded && currentPodcast ? <PodcastCard post={trendingPost}/> : null}
+                    { loaded  ? <ComfyCast post={trendingPost}/> : null}
                     {posts.map((post, idx) => {
                         return (<BaseCard post={post} key={idx}/>)
                     })}
