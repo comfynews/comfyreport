@@ -1,8 +1,8 @@
 import React from "react";
 import {Card, CardMedia, Grid, Hidden} from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles";
-import battleseal from "../assets/battleseal.gif";
-import bsMobile from '../assets/bs-mobile.gif';
+import stakenet from "../assets/stakenet-large.webm";
+import xsn_mobile from "../assets/stakenet-mobile.webm";
 import Link from "@material-ui/core/Link";
 
 const useStyles = makeStyles((theme) => ({
@@ -31,7 +31,8 @@ const useStyles = makeStyles((theme) => ({
     },
     mobileMedia: {
         height: 'auto',
-        width: '100%',
+        width: '105%',
+        marginLeft: -8
     }
 }));
 
@@ -44,19 +45,25 @@ const PromoCard = () => {
         <Grid item xs={12} md={6}>
             <Hidden xsDown>
             <Card className={classes.card}>
-                <Link href="https://t.me/battlesealtoken" target='_blank' rel='noreferrer'>
+                <Link href="https://stakenet.io/" target='_blank' rel='noreferrer'>
                 <CardMedia className={classes.media}
-                    component="img"
-                    src={battleseal}/>
+                    component="video"
+                    src={stakenet}
+                    autoPlay
+                    loop
+                    muted/>
                 </Link>
             </Card>
             </Hidden>
             <Hidden smUp>
                 <Card className={classes.card}>
-                    <Link href="https://t.me/battlesealtoken" target='_blank' rel='noreferrer'>
+                    <Link href="https://stakenet.io/" target='_blank' rel='noreferrer'>
                         <CardMedia className={classes.mobileMedia}
-                                   component="img"
-                                   src={bsMobile}/>
+                                   component="video"
+                                   src={xsn_mobile}
+                                   autoPlay
+                                   loop
+                                   muted/>
                     </Link>
                 </Card>
             </Hidden>
