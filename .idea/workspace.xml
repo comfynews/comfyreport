@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="404dfafe-0524-4a35-b00e-dbc1b27f8597" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/battleseal.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/bs-mobile.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/m7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/m7mobile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ComfyCastPlayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ComfyCastPlayer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PromoCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PromoCard.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,7 +140,10 @@
       <workItem from="1631587321154" duration="458000" />
       <workItem from="1632490178284" duration="352000" />
       <workItem from="1633277209291" duration="4093000" />
-      <workItem from="1633358526270" duration="2250000" />
+      <workItem from="1633358526270" duration="2842000" />
+      <workItem from="1633363269278" duration="652000" />
+      <workItem from="1633365080350" duration="591000" />
+      <workItem from="1633466842940" duration="1505000" />
     </task>
     <servers />
   </component>

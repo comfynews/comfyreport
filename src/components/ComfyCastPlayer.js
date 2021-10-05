@@ -51,7 +51,7 @@ const ComfyCastPlayer = ({post}) => {
                         {/* Mobile Firefox background audio doesn't seem able to be turned on*/}
                         {/* Safari player works by default on iOS*/}
                         <ReactPlayer
-                            style={{'border-radius': '15'}}
+                            style={{'borderRadius': '15'}}
                             url={post.link}
                             playsinline={true}
                             config={{
