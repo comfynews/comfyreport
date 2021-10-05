@@ -2,7 +2,7 @@ import React from "react";
 import {Card, CardMedia, Grid, Hidden} from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles";
 import stakenet from "../assets/stakenet-large.webm";
-import xsn_mobile from "../assets/stakenet-mobile.webm";
+import xsn_mobile from "../assets/stakenet-mobile.gif";
 import Link from "@material-ui/core/Link";
 
 const useStyles = makeStyles((theme) => ({
@@ -59,11 +59,8 @@ const PromoCard = () => {
                 <Card className={classes.card}>
                     <Link href="https://stakenet.io/" target='_blank' rel='noreferrer'>
                         <CardMedia className={classes.mobileMedia}
-                                   component="video"
-                                   src={xsn_mobile}
-                                   autoPlay
-                                   loop
-                                   muted/>
+                                   component="img"
+                                   src={xsn_mobile}/>
                     </Link>
                 </Card>
             </Hidden>
