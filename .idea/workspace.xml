@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="404dfafe-0524-4a35-b00e-dbc1b27f8597" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ComfyCastPlayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ComfyCastPlayer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/stakenet-large.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/stakenet-mobile.webm" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PromoCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PromoCard.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +144,8 @@
       <workItem from="1633358526270" duration="2842000" />
       <workItem from="1633363269278" duration="652000" />
       <workItem from="1633365080350" duration="591000" />
-      <workItem from="1633466842940" duration="1505000" />
+      <workItem from="1633466842940" duration="1845000" />
+      <workItem from="1633532528612" duration="957000" />
     </task>
     <servers />
   </component>
