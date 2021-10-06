@@ -1,7 +1,7 @@
 import React from "react";
 import {Card, CardMedia, Grid, Hidden} from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles";
-import stakenet from "../assets/stakenet-large.webm";
+import stakenet from "../assets/stakenet-large.mp4";
 import xsn_mobile from "../assets/stakenet-mobile.gif";
 import Link from "@material-ui/core/Link";
 
@@ -25,14 +25,16 @@ const useStyles = makeStyles((theme) => ({
     },
     focusHighlight: {},
     media: {
-        height: 'auto',
+        height: "auto",
         width: '105%',
-        marginLeft: -8
+        marginLeft: -12,
+        borderRadius: 24,
     },
     mobileMedia: {
         height: 'auto',
         width: '105%',
-        marginLeft: -8
+        marginLeft: -8,
+        borderRadius: 15,
     }
 }));
 
