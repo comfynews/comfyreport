@@ -90,7 +90,7 @@ export default function SideDrawer() {
         left: false,
     });
     const items = ['COMFYTOKEN', 'COMFYCAST', 'CHART', 'DISCORD', 'TELEGRAM', 'ADVERTISE']
-    const links = ['https://comfytoken.com', 'https://anchor.fm/comfytoken','https://www.dextools.io/app/pancakeswap/pair-explorer/0x84153a2db7f8b9a41e44a693a69e8a3f58e7b9e7',
+    const links = ['https://comfy.fund', 'https://anchor.fm/comfytoken','https://poocoin.app/tokens/0xdcc2141cb7aa692da318b6ca2ae84eefe5bfe6d8',
         'https://discord.gg/comfytoken', 'https://t.me/comfytokenchat', 'mailto:hello@comfytoken.com?Subject=ComfyReport%20Advert%20Inquiry']
     const icons = [comfy, anchor, chart, discord, telegram, mail]
 
@@ -123,7 +123,7 @@ export default function SideDrawer() {
             <List>
                 {items.map((text, index) => (
                     <div key={text}>
-                        <ListItem button component='a' href={links[index]} target='_blank'>
+                        <ListItem button component='a' href={links[index]} target='_blank' rel='https://comfyreport.com'>
                         <ListItemIcon className={classes.icons}><img src={icons[index]} height={25} width={25} alt='comfy-dude'/></ListItemIcon>
                             <ListItemText disableTypography primary={<Typography className={classes.listText}>{text}</Typography>}/>
                     </ListItem>
