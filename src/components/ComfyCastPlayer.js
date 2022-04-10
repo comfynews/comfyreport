@@ -6,6 +6,7 @@ import {
 } from "@material-ui/core";
 import React from "react";
 import ReactPlayer from "react-player";
+import comfyCast from '../assets/comfycast.jpg';
 
 const useStyles = makeStyles((theme) => ({
     card: {
@@ -52,13 +53,17 @@ const ComfyCastPlayer = ({post}) => {
                         {/* Safari player works by default on iOS*/}
                         <ReactPlayer
                             style={{'borderRadius': '15'}}
-                            url={post.link}
+                            url='https://www.youtube.com/watch?v=oHg5SJYRHA0'
                             playsinline={true}
+                            light={comfyCast}
                             config={{
                                 youtube: {
                                     playerVars: {
-                                        controls: 1,
-                                        widget_referrer: 'https://comfyreport.com',
+                                        autoplay: 1,
+                                        controls: 0,
+                                        start: 44,
+                                        modestbranding: 1,
+                                        loop: 1
                                     }
                                 }
                             }}

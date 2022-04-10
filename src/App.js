@@ -8,8 +8,7 @@ import Parser from "rss-parser";
 import ap_text from "./assets/fonts/ap_text_regular.ttf";
 // import AdCardBottom from "./components/AdCardBottom";
 import ComfyCast from "./components/ComfyCastPlayer";
-import PromoCard from "./components/PromoCard";
-// import PromoCard from "./components/PromoCard";
+
 
 
 const darkTheme = createTheme({
@@ -121,7 +120,7 @@ function App() {
             <Container maxWidth='lg'>
                 <Grid container spacing={2}>
                     { loaded  ? <ComfyCast post={trendingPost}/> : null}
-                    { loaded ? <PromoCard/> : null }
+                    {/*{ loaded ? <PromoCard/> : null }*/}
                     {posts.map((post, idx) => {
                         return (<BaseCard post={post} key={idx}/>)
                     })}
